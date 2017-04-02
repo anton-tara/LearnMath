@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LearnMath</string>
+    <string name="title_activity_start_menu">StartMenu</string>
+    <string name="action_settings">Настройки</string>
+    <string name="drawer_item_home">На главную</string>
+    <string name="drawer_item_module1">Модуль Геометрия</string>
+    <string name="drawer_item_module2">Модуль Алгебра</string>
+    <string name="drawer_item_settings">Настройки</string>
+    <string name="drawer_item_help">Как пользоваться</string>
+
+    <string name="drawer_item_contact">О нас</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_menu_lm">MenuLM</string>
+</resources>
+

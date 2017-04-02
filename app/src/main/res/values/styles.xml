@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppTheme.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.AppCompat.ActionMode.MyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">52dp</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">?attr/colorBackgroundFloating</item>
+        <item name="android:selectAllOnFocus">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:background">@mipmap/edittext</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Fullscreen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Fullscreen.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

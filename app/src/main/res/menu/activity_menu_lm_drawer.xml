@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home"
+            android:title="На главную" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_library_books"
+            android:title="Модуль Геометрия" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_library_books"
+            android:title="Модуль Алгебра" />
+    </group>
+
+    <item android:title="Помощь">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_settings"
+                android:title="Настройки" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_question_answer"
+                android:title="Как пользоваться" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_info"
+                android:title="О нас" />
+        </menu>
+    </item>
+
+</menu>
